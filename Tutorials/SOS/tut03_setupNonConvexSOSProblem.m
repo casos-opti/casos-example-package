@@ -137,7 +137,7 @@ sol = S('x0',x0);
 endTimeBisect = toc;
 
 % check the solution status with the unified solution status
-if strcmp(S.stats.solutionStatus,'Optimal solution')
+if strcmp(S.stats.solution_status,'Optimal solution')
     fprintf('Optimal solution found\n')
 else
    disp('Unsuccesful!')
@@ -152,7 +152,7 @@ hold on
 fprintf('------------------------------------------------------------------------------------------\n')
  % common information
 fprintf('Sequential SOS needed %d iterations and it took %f seconds.\n',[S.stats.iterations,...
-                                                                            S.stats.totalSolveTime + S.stats.solverBuildTime])
+                                                                            S.stats.total_solve_time + S.stats.solver_build_time])
 fprintf('------------------------------------------------------------------------------------------\n')
 % check the problem size of the underlying conic problem (same size for all
 % problems)
