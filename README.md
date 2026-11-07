@@ -14,17 +14,18 @@ The example package itself does not not need to be installed. Only a [stable ver
 ### Folder Structure
 
 ```text
-Tutorials/						# Folder contains different tutorials
-├── Basics        				# Toolbox basics
-├── Pontryagin difference		# Examples for estimating inner approximations of the Pontryagin difference
-├── SOS			  				# How to setup different types of SOS problems
-├── Polynomial fitting			# How to set up a polynomial fitting with shape constraints
-└── Conic			  			# How to setup conic problems using sdpsol interface
+Tutorials/                      # Folder contains different tutorials
+├── Basics                      # Toolbox basics
+├── Pontryagin difference       # Examples for estimating inner approximations of the Pontryagin difference
+├── SOS                         # How to setup different types of SOS problems
+├── Polynomial fitting          # How to set up a polynomial fitting with shape constraints
+└── Conic                       # How to setup conic problems using sdpsol interface
 
-Systems and Control/ 			# Examples from the systems and controls literature
-├── NMPC						# Synthesis of terminal conditions for NMPC, infinitesimal-NMPC law synthesis
-├── Stability					# Stability analysis, e.g., region-of-attraction estimation
-└── Reachability				# Reachability analysis, e.g., inner-approximation of backwards reachable set
+Systems and Control/            # Examples from the systems and controls literature
+├── CBF_CLF                     # Synthesis of a compatible CBF/CLF
+├── NMPC                        # Synthesis of terminal conditions for NMPC, infinitesimal-NMPC law synthesis
+├── Stability                   # Stability analysis, e.g., region-of-attraction estimation, manifold stability, and ISS
+└── Reachability                # Reachability analysis, e.g., inner-approximation of backwards reachable set
 ```
 
 
@@ -43,7 +44,7 @@ Systems and Control/ 			# Examples from the systems and controls literature
 
 If you use CaΣoS, please cite us:
 
-> T. Cunis and J. Olucak, ‘CaΣoS: A nonlinear sum-of-squares optimization suite’, in _2025 American Control Conference_, (Boulder, CO), pp. 1659–1666, 2025 doi: [10.23919/ACC63710.2025.11107794](https://doi.org/10.23919/ACC63710.2025.11107794).
+> T. Cunis and J. Olucak, ‘CaΣoS: A nonlinear sum-of-squares optimization suite’, in _2025 American Control Conference_, (Denver, CO), pp. 1659–1666, 2025 doi: [10.23919/ACC63710.2025.11107794](https://doi.org/10.23919/ACC63710.2025.11107794).
 
 <details>
 
@@ -54,7 +55,7 @@ If you use CaΣoS, please cite us:
 	author = {Cunis, Torbjørn and Olucak, Jan},
 	title = {{CaΣoS}: {A} nonlinear sum-of-squares optimization suite},
 	booktitle = {2025 American Control Conference},
-	address = {Boulder, CO},
+	address = {Denver, CO},
 	year = {2025},
 	pages = {1659--1666},
 	doi = {10.23919/ACC63710.2025.11107794},
