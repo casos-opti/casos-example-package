@@ -16,9 +16,7 @@ The example package itself does not not need to be installed. Only a [stable ver
 ```text
 Tutorials/                      # Folder contains different tutorials
 ├── Basics                      # Toolbox basics
-├── Pontryagin difference       # Examples for estimating inner approximations of the Pontryagin difference
 ├── SOS                         # How to setup different types of SOS problems
-├── Polynomial fitting          # How to set up a polynomial fitting with shape constraints
 └── Conic                       # How to setup conic problems using sdpsol interface
 
 Systems and Control/            # Examples from the systems and controls literature
@@ -26,6 +24,10 @@ Systems and Control/            # Examples from the systems and controls literat
 ├── NMPC                        # Synthesis of terminal conditions for NMPC, infinitesimal-NMPC law synthesis
 ├── Stability                   # Stability analysis, e.g., region-of-attraction estimation, manifold stability, and ISS
 └── Reachability                # Reachability analysis, e.g., inner-approximation of backwards reachable set
+
+Miscellaneous/                  # Folder contains miscellaneous applications of SOS programming
+├── Pontryagin difference       # Examples for estimating inner approximations of the Pontryagin difference
+└── Polynomial fitting          # How to set up a polynomial fitting with shape constraints
 ```
 
 
